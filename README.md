@@ -32,10 +32,3 @@ This application allows users to interact with PDF documents by asking questions
 - `faiss-cpu` (for vector store handling)
 - `streamlit` (for frontend)
 
-### Installation
-
-1. Clone the repository to your local machine:
-
-   ```bash
-   git clone https://github.com/Shashi1628/PDF-chatbot.git
-   cd PDF-chatbot
