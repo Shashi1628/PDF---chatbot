@@ -28,6 +28,8 @@ response = bedrock.invoke_model(
     contentType="application/json",
 )
 
+
+
 response_body = json.loads(response.get("body").read())
 print(response_body)
 artifact = response_body.get("artifacts")[0]

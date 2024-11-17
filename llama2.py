@@ -5,6 +5,8 @@ prompt_data="""
 Act as a Shakespeare and write a poem on Genertaive AI
 """
 
+
+
 bedrock=boto3.client(service_name="bedrock-runtime")
 
 payload={
